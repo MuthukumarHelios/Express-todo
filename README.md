@@ -10,8 +10,12 @@ express --version==>4.14.1
 You can start this by clone this repo
 
 git clone https://github.com/Muthukumars1994/Express-todo.git
+
+
 npm install
+
 cd Express-todo
+
 npm start
 
 ###check whether your mongod instance is running
