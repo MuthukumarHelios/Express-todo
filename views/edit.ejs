@@ -1,0 +1,10 @@
+
+<h1><%= title %></h1>
+<% todos.forEach(function ( todo ){%>
+   <%if (todo._id == current){ %>
+     <form action = "/update/<%= todo._id %>" method="post">
+         <input type = "text" name ="content" title= "update" value = "<%= todo.content%>" />
+     </form>
+ <%}else{%>
+       <a href = "/edit/<%= todo._id%>" title = "update this todo"></a><%= todo.content %><br><%}%>
+  <% }); %>

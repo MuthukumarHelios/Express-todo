@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+button{
+  color: green;
+}
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+
+.title{border-bottom:5px solid black;}
+$buttonheight: 50px;
+.button{width:200px; height:$buttonheight; text-align:center; margin-bottom:10px; border:4px solid white; border-radius:10px; color:white; font-size:20px;
+    a{color:white; text-decoration:none; line-height:$buttonheight; width:100%; height:100%;  display:block;}
+    .first, .second{width:200px; display:inline-block; float:left;}
+}
