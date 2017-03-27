@@ -18,6 +18,8 @@ cd Express-todo
 
 npm install
 
+npm install mongoose
+
 npm start
 
 
